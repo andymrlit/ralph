@@ -83,6 +83,12 @@ text: `*╭─────────────────✤*\n*│* *${uca
 ┃✜ *${lenguajeGB['smsUptime']()}* 
 ┃➺ _${uptime}_
 ┃   ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃✜  *MY CREATOR*
+┃➺ _*https://wa.me/14036687826*_
+┃   ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+┃✜  *MY COMMUNITY*
+┃➺  _*https://chat.whatsapp.com/DSjOomRaTkU4z1a5ngl2Yw*_
+┃   ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃✜ *${lenguajeGB['smsTotalUsers']()}*
 ┃➺ _${Object.keys(global.db.data.users).length}_ 
 ┃   ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
@@ -96,7 +102,7 @@ text: `*╭─────────────────✤*\n*│* *${uca
 ┃➺ _${Object.entries(global.db.data.users).filter(user => user[1].banned).length}_
 ╰━━━━━━━━━━━━━━━━⬣
 *» ${lenguajeGB['smsPareja']()} ➺ ${pareja ? `${name} 💕 ${conn.getName(pareja)}` : `🛐 ${lenguajeGB['smsResultPareja']()}`}*`,
-footer: `*↓ TRUSTED LINK* ✅
+footer: `*↓ DO NOT SPAM BRO 😒* ✅
 ${readMore}${redesMenu.getRandom()}`, //${name} ${ucapan()} //lenguajeGB['smsMenu']()
 title: null,
 buttonText: `${lenguajeGB['smsListaMenu']()}`, 
